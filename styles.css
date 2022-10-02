@@ -86,8 +86,9 @@ footer{
     }
 
     .hero-image{
-      text-align: center;
-      margin-left: 10rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
       width: 30%;
     }
 
@@ -120,7 +121,12 @@ footer{
         font-size: 0.9rem;
     }
 
+    footer{
+        margin: 1.5rem 0.7rem;
+    }
     footer p{
         font-size: 0.9rem;
+        text-align: center;
+
     }
   }
